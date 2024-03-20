@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="destination-styles.css">
+</head>
+<body>
+
+  <!-- header section  -->
+
+
+  <header class="head-section">
+
+
+    <div class="logo">
+      <a href="index.html"><img src="Images/logo.png.webp" alt="logo" class="img-logo"></a>
+    </div>
+
+    <nav class="nav-bar">
+      <ul class="nav-link">
+        <li><a href="index.html" class="nav-links">Home</a></li>
+        <li><a href="about.html" class="nav-links">About</a></li>
+        <li><a href="destination.html" class="nav-links">Destination</a></li>
+        <li><a href="#" class="nav-links">Pages <i class="fa-solid fa-angle-down icon"></i></a>
+          <ul class="dropdown">
+            <li><a href="destination-details.html" class="dropdown-content d1">Destinations Details</a></li>
+            <li><a href="elements.html" class="dropdown-content">Elements</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="nav-links">Blog <i class="fa-solid fa-angle-down icon"></i></a>
+          <ul class="dropdown">
+            <li><a href="blog.html" class="dropdown-content d1">Blog</a></li>
+            <li><a href="single-blog.html" class="dropdown-content">Single-Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="nav-links">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="contact">
+
+      <div class="number">
+        <i class="fa-solid fa-phone call-icon"></i> +91 6592850388
+      </div>
+
+      <nav class="nav-bar2">
+        <ul class="nav-link2">
+          <li><a href="#" class="nav-links2"><i class="fa-brands fa-instagram icon2"></i></a></li>
+          <li><a href="#" class="nav-links2"><i class="fa-brands fa-linkedin-in icon2"></i></a></li>
+          <li><a href="#" class="nav-links2"><i class="fa-brands fa-facebook-f icon2"></i></a></li>
+          <li><a href="#" class="nav-links2"><i class="fa-brands fa-google-plus-g icon2 icon3"></i></a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <!-- search  -->
+
+    <section class="search">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+    </section>
+
+
+  </header>
+
+  <!-- banner section  -->
+
+  <section class="banner-about">
+
+    <h1 class="heading-about">
+      Destinations
+    </h1>
+
+    <p class="para-about">
+      Pixel Perfect Design With Awesome Contents
+    </p>
+
+</section>
+
+
+  <!-- booking section  -->
+
+  <section class="booking">
+
+    <div class="booking-head">
+      <p>Where you want to go?</p>
+
+    </div>
+
+    <div class="inp">
+      <input type="text" placeholder="Where to go?">
+    </div>
+
+    <div class="inp">
+      <input type="date">
+    </div>
+
+    <div class="inp">
+      <select name="type">
+        <option value="travel type" class="book-option">Travel Type</option>
+        <option value="some option" class="book-option">Some Option</option>
+        <option value="another option" class="book-option">Another Option</option>
+      </select>
+    </div>
+
+    <div class="inp2">
+      <button class="btn2">Search</button>
+    </div>
+
+  </section>
+
+  <!-- contact and popular places  -->
+  <section class="popular-places">
+
+    <div class="popular-contact">
+      <h3 class="popular-contact-head">
+        Filter Result
+      </h3>
+      <div class="popular-contact-space">
+
+        <div class="popular-contact-select">
+          <select name="" id="">
+            <option value="Country">Country</option>
+            <option value="Africa">Africa</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+          </select>
+        </div>
+
+        <div class="popular-contact-select">
+          <select name="" id="">
+            <option value="Travel type">Travel type</option>
+            <option value="Advance">Advance</option>
+            <option value="Advance">Advance</option>
+            <option value="Premium">Premium</option>
+          </select>
+        </div>
+
+        <div class="popular-contact-range">
+          <label for="p-range" class="pc-range">Prise range(in $)</label>
+          <!-- <input type="range" name="price" id="p-range" min="$0" max="$300"> -->
+          <input type="range" value="24" min="0" max="300" oninput="this.nextElementSibling.value = this.value">
+          <output>10</output>
+        </div>
+
+        <div class="popular-button">
+          <button class="pd-btn">Reset</button>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="popular-contact-destination">
+    <div class="popular-places-list">
+
+      <div class="popular-place-design">
+
+        <div class="popular-place-image">
+          <img src="Images/1.png" alt="" class="popular-image">
+          <button class="img-btn">$500</button>
+        </div>
+
+        <div class="popular-place-details">
+
+          <p class="p-para">
+            <a href="#" class="ap-para">California</a>
+          </p>
+          <span class="s-line">
+            United State of America
+          </span>
+
+          <div class="ratings">
+
+            <span class="st-icon">
+              <i class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i>
+              <span class="s-review s-link">(20 Review)</span>
+            </span>
+            <span>
+              <i class="fa-regular fa-clock sr-icon"></i>
+              <span class="s-review s-link">5 Days</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="popular-place-design">
+
+        <div class="popular-place-image">
+          <img src="Images/2.png.webp" alt="" class="popular-image">
+          <button class="img-btn">$500</button>
+        </div>
+
+        <div class="popular-place-details">
+
+          <p class="p-para">
+            <a href="#" class="ap-para">Korola Megna</a>
+          </p>
+          <span class="s-line">
+            United State of America
+          </span>
+
+          <div class="ratings">
+
+            <span class="st-icon">
+              <i class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i>
+              <span class="s-review s-link">(20 Review)</span>
+            </span>
+            <span>
+              <i class="fa-regular fa-clock sr-icon"></i>
+              <span class="s-review s-link">5 Days</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="popular-place-design">
+
+        <div class="popular-place-image">
+          <img src="Images/3.png.webp" alt="" class="popular-image">
+          <button class="img-btn">$500</button>
+        </div>
+
+        <div class="popular-place-details">
+
+          <p class="p-para">
+            <a href="#" class="ap-para">London</a>
+          </p>
+          <span class="s-line">
+            United State of America
+          </span>
+
+          <div class="ratings">
+
+            <span class="st-icon">
+              <i class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i>
+              <span class="s-review s-link">(20 Review)</span>
+            </span>
+            <span>
+              <i class="fa-regular fa-clock sr-icon"></i>
+              <span class="s-review s-link">5 Days</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="popular-place-design">
+
+        <div class="popular-place-image">
+          <img src="Images/4.png.webp" alt="" class="popular-image">
+          <button class="img-btn">$500</button>
+        </div>
+
+        <div class="popular-place-details">
+
+          <p class="p-para">
+            <a href="#" class="ap-para">Miami Beach</a>
+          </p>
+          <span class="s-line">
+            United State of America
+          </span>
+
+          <div class="ratings">
+
+            <span class="st-icon">
+              <i class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i>
+              <span class="s-review s-link">(20 Review)</span>
+            </span>
+            <span>
+              <i class="fa-regular fa-clock sr-icon"></i>
+              <span class="s-review s-link">5 Days</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="popular-place-design">
+
+        <div class="popular-place-image">
+          <img src="Images/5.png.webp" alt="" class="popular-image">
+          <button class="img-btn">$500</button>
+        </div>
+
+        <div class="popular-place-details">
+
+          <p class="p-para">
+            <a href="#" class="ap-para">Italy</a>
+          </p>
+          <span class="s-line">
+            United State of America
+          </span>
+
+          <div class="ratings">
+
+            <span class="st-icon">
+              <i class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i>
+              <span class="s-review s-link">(20 Review)</span>
+            </span>
+            <span>
+              <i class="fa-regular fa-clock sr-icon"></i>
+              <span class="s-review s-link">5 Days</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="popular-place-design">
+
+        <div class="popular-place-image">
+          <img src="Images/6.png.webp" alt="" class="popular-image">
+          <button class="img-btn">$500</button>
+        </div>
+
+        <div class="popular-place-details">
+
+          <p class="p-para">
+            <a href="#" class="ap-para">Saintmartine Iceland</a>
+          </p>
+          <span class="s-line">
+            United State of America
+          </span>
+
+          <div class="ratings">
+
+            <span class="st-icon">
+              <i class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i><i class="fa-solid fa-star s-icon"></i><i
+                class="fa-solid fa-star s-icon"></i>
+              <span class="s-review s-link">(20 Review)</span>
+            </span>
+            <span>
+              <i class="fa-regular fa-clock sr-icon"></i>
+              <span class="s-review s-link">5 Days</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="p-btn">
+      <button class="pp-btn">More Places</button>
+    </div>
+
+  </div>
+
+  </section>
+
+   <!-- subscribe section  -->
+
+   <section class="subscribe">
+    <div class="news-letter">
+      <p class="sub">Subscribe Our Newsletter</p>
+      <p class="sub-para">Subscribe newsletter to get offers and about new places to discover.</p>
+    </div>
+
+    <div class="sub-finish">
+      <div class="inp3">
+        <input type="email" placeholder="Your mail">
+      </div>
+
+      <div class="sub-btn">
+        <button class="sub-btn-design">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- trips  -->
+
+   <section class="trips">
+    <h1 class="trip-heading">
+      Recent Trips
+    </h1>
+
+    <div class="trip-blog">
+      <div class="container">
+        <div class="trip-image">
+          <img src="Images/trip1.png" alt="" class="t-image">
+        </div>
+        <div class="trip-details">
+          <span class="trip-date">Oct 12, 2019</span>
+          <h3 class="trip-info">Journeys Are Best Measured In New Friends
+          </h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="trip-image">
+          <img src="Images/trip2.png (1).webp" alt="" class="t-image">
+        </div>
+        <div class="trip-details">
+          <span class="trip-date">Oct 12, 2019</span>
+          <h3 class="trip-info">Journeys Are Best Measured In New Friends
+          </h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="trip-image">
+          <img src="Images/trip3.png (1).webp" alt="" class="t-image">
+        </div>
+        <div class="trip-details">
+          <span class="trip-date">Oct 12, 2019</span>
+          <h3 class="trip-info">Journeys Are Best Measured In New Friends
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer  -->
+  <footer>
+    <div class="address">
+      <img src="Images/footer_logo.png.webp" alt="" class="foot-logo">
+      <address>
+            5th flora, 700/D kings road, green <br>
+            lane New York-1782 <br>
+            +10 367 826 2567 <br>
+            contact@carpenter.com
+      </address>
+    </div>
+
+    <div class="footer-design">
+      <h3 class="footer-heading">Company</h3>
+      <ul class="foot-link">
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-design">
+      <h3 class="footer-heading">Popular</h3>
+      <ul class="foot-link">
+        <li><a href="#">Indonesia</a></li>
+        <li><a href="#">India</a></li>
+        <li><a href="#">Italy</a></li>
+        <li><a href="#">French</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-design">
+      <h3 class="footer-heading"> Destination</h3>
+      <ul class="foot-link">
+        <li><a href="#">America</a></li>
+        <li><a href="#">Switzerland</a></li>
+        <li><a href="#">Canada</a></li>
+        <li><a href="#">England</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-design2">
+      <h3 class="footer-heading2">Instagram</h3>
+      <div class="foot-container">
+        <div class="foot-hold">
+          <a href="#"><img src="Images/indonesia.webp" alt="" class="foot-image"></a>
+        </div>
+        <div class="foot-hold">
+          <a href="#"><img src="Images/indo-nesia.webp" alt="" class="foot-image"></a>
+        </div>
+        <div class="foot-hold">
+          <a href="#"><img src="Images/4.png.webp" alt="" class="foot-image"></a>
+        </div>
+        <div class="foot-hold">
+          <a href="#"><img src="Images/6.png.webp" alt="" class="foot-image"></a>
+        </div>
+        <div class="foot-hold">
+          <a href="#"><img src="Images/maldives.webp" alt="" class="foot-image"></a>
+        </div>
+        <div class="foot-hold">
+          <a href="#"><img src="Images/3.png.webp" alt="" class="foot-image"></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-icons">
+      <a href="#" class="foo-link"><i class="fa-brands fa-facebook-f fo-icon"></i></a>
+      <a href="#" class="foo-link"><i class="fa-brands fa-x-twitter fo-icon"></i></a>
+      <a href="#" class="foo-link"><i class="fa-brands fa-instagram fo-icon"></i></a>
+      <a href="#" class="foo-link"><i class="fa-brands fa-pinterest fo-icon"></i></a>
+      <a href="#" class="foo-link"><i class="fa-brands fa-youtube fo-icon"></i></a>
+    </div>
+
+    <div class="last-foot">
+      <p class="last-para">
+        Copyright &copy2023 All rights reserved | The template is made with <i class="fa-regular fa-heart"></i> by <span>Colorlib</span>
+      </p>
+    </div>
+
+  </footer>
+ 
+  
+</body>
+</html>
